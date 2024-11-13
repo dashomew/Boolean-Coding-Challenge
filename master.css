@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(immagini/background.jpg);
+    background-size: cover; 
+}
+
+.box{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 62%;
+    height: 1100px;
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 20%;
+    padding-top: 6%;
+    padding-bottom: 5%;
+    font-family: Arial;
+}
+
+img{
+    width: 20%;
+    height: 20%;
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1{
+    text-align: center;
+    font-weight: normal;
+    color: rgb(0,221,0);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.bg-buttons{
+    text-align: center;
+    background-color: rgb(0,221,0);
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+main{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.charge{
+    border-radius: 3px;
+    height: 25px;
+}
+
+.low{
+    background-color: rgb(190,65,65);
+    width: 15%; /* percentuale carica */
+}
+
+.mid{
+    background-color: rgb(245,180,83);
+    width: 30%;
+}
+
+.max{
+    background-color: rgb(0,221,0);
+    width: 50%;
+}
+
+div > span{
+    display: block;
+    color: white;
+}
+
+.name{
+    font-size: 25px;
+}
+
+div.info{
+    margin-top: 2%;
+}
+
+.location:before{
+    content: "\21A6";
+}
+
+span{
+    margin-top: 2px;
+}
